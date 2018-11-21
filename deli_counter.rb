@@ -16,3 +16,9 @@ def take_a_number(arr, person)
   number_in_line = arr.length
   puts "Welcome, #{person}. You are number #{number_in_line} in line."
 end
+
+def now_serving(arr)
+  if arr.size == 0
+    puts "Line is empty"
+  end
+end
