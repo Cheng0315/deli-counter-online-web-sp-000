@@ -14,6 +14,5 @@ end
 def take_a_number(arr, person)
   arr << person
   number_in_line = arr.length
-  puts "Welcome, #{name}. You are number #{number_in_line} in line."
+  puts "Welcome, #{person}. You are number #{number_in_line} in line."
 end
-
