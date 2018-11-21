@@ -19,6 +19,8 @@ end
 
 def now_serving(arr)
   if arr.size == 0
-    puts "Line is empty"
-  end
+    puts "There is nobody waiting to be served!"
+  else
+    arr.shift
+    arr
 end
